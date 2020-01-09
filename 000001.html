@@ -18,13 +18,28 @@ header {
   padding: 100px;
   font-size: 40px;
   text-decoration: none;
-}
-
-.secret {
+	
+.button
+	color: #0090ff;
 	text-decoration: none;
-	color: #900000;
 }
 </style>
+<script>
+	var c = 0
+	document.getElementById("button2").setElement("disabled", "true")
+	
+	function next() {
+		if (c>=100) {
+			window.location.href = "../000002.html"
+		} else {
+			alert("Get 100 first")
+		}
+	
+	function click() {
+		c+=1
+		document.getElementById("text").innerHTML = "Clicks: "+c
+	}
+</script>
 </head>
 <body>
 <header>
@@ -34,5 +49,9 @@ WEB REVENGERS
 </h1>
 </a>
 </header>
+<article>
+<a class="button" href="javascript:next()">Good job! Now want you to reach 100. Click me when you are done and I'll go to the next level.</a>
+<p id="text">Clicks: 0</p>
+</article>
 </body>
 </html>
