@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 	<head>
 		<title>Revengers | Official Site</title>
@@ -8,10 +8,15 @@
 				font-family: "Roboto";
 			}
 			/* Add a black background color to the top navigation */
-			.topnav {
+			.nav {
 				 background-color: #333;
  				 overflow: hidden;
 			}
+      .nav h1 {
+        display: inline-block;
+        font-size: 20px;
+        vertical-align: top;
+      }
 
 			/* Style the links inside the navigation bar */
 			.topnav a {
@@ -34,12 +39,22 @@
  				background-color: #4CAF50;
   				color: white;
 			}
+      .topnav {
+      white-space: nowrap;
+      display: inline-block;
+      }
 		</style>
 	</head>
 	<body>
+  <div class="nav">
+    <img src="revengers.png" height="50">
+    <h1>
+     Revengers
+    </h1>
 		<div class="topnav">
  			<a class="active" href="#home">Home</a>
  			<a href="./game">Web Revengers</a>
-		</div>
+	  </div>
+   </div>
 	</body>
 </html>
