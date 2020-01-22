@@ -20,11 +20,23 @@ header {
   text-decoration: none;
 </style>
 <script>
-  var c = 0
-  
-  function click() {
-    c+=1
-    document.getElementById("text").innerHTML = "Clicks: "+c
+  alert("Currently in beta,so under development^^");
+
+var x=0;
+var lv=1;
+function oncl(){
+   x+=lv;
+   textUpdate();
+   if (x==100) [
+     window.location.href = "http://www.w3schools.com";
+}
+    
+}
+function textUpdate(){
+    document.getElementById("p").innerHTML=x+" points";
+    
+};
+}
 </script>
 </head>
 <body>
@@ -36,9 +48,11 @@ WEB REVENGERS
 </a>
 </header>
 <article>
-<p>Good job! Now want you to reach 100. When you reach 100, you will go to the next level.</a>
-<p id="text">Clicks: 0</p>
-<button onclick="click()">Click me!</button>
+  <p>When you reach 100, I will send you to the next level.</p>
+        <button onclick=oncl()>Click me</button>
+        </div>
+        <div>
+        <p id="p" >0 Points</p>
 </article>
 </body>
 </html>
