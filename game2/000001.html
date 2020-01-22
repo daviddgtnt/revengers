@@ -19,7 +19,13 @@ header {
   font-size: 40px;
   text-decoration: none;
 </style>
-<script src="000001.js"></script>
+<script>
+  var c = 0
+  
+  function click() {
+    c+=1
+    document.getElementById("text").innerHTML = "Clicks: "+c
+</script>
 </head>
 <body>
 <header>
@@ -30,7 +36,7 @@ WEB REVENGERS
 </a>
 </header>
 <article>
-<p onclick="next()">Good job! Now want you to reach 100. Click me when you are done and I'll go to the next level.</a>
+<p>Good job! Now want you to reach 100. When you reach 100, you will go to the next level.</a>
 <p id="text">Clicks: 0</p>
 <button onclick="click()">Click me!</button>
 </article>
