@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Revengers | Official Site</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<link rel "shortcut icon" href="https://daviddgtnt.github.io/revengers/revengers.png">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+  	<div class="nav">
+    		<img src="https://daviddgtnt.github.io/revengers/revengers.png" height="50">
+   		<h1>
+     			Revengers
+    		</h1>
+		<div class="topnav">
+ 			<a href="#home">Home</a>
+ 			<a href="./game">Web Revengers</a>
+      <a class="active" href="javascript://location.reload">Games</a>
+	  	</div>
+   	</div>
+   	 Coming soon!
+	</body>
